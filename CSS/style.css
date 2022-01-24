@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Global Class  */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.global-h-l {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.global-h-m {
+  font-size: 25px;
+  font-weight: 600;
+}
+.global-p {
+  font-size: 15px;
+}
+.underline {
+  display: block;
+  border: 2px solid gray;
+  width: 50px;
+  margin: 20px auto;
+}
+.btn {
+  width: 200px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 50px;
+}
+section {
+  padding: 75px 0px;
+}
+/* Header part  */
+header {
+  background-color: #87509c;
+  width: 100%;
+  float: left;
+  color: white;
+}
+.main-header {
+  width: 100%;
+  float: left;
+  padding: 20px 0px;
+}
+.logo-part {
+  width: 50%;
+  float: left;
+}
+.menu-part {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+.menu-part ul {
+  margin-top: 11px;
+}
+.menu-part ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+}
+.menu-part ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.menu-part ul li a:hover {
+  cursor: pointer;
+  color: aqua;
+}
+/* Header content  */
+.header-content {
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin: 100px 0px;
+}
+.header-content h1 {
+  text-transform: none;
+}
+.header-content button {
+  background-color: #eb7d4b;
+  margin-top: 50px;
+}
+.header-content button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 4px #eb7d4b;
+}
+
+/* Service section  */
+#service {
+  background-color: #17c2a4;
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+.service-main {
+  width: 52%;
+  margin: 0 auto 50px;
+}
+.service-main h2 {
+  font-size: 36px;
+}
+.service-main p {
+  font-size: 15px;
+}
+.service-box {
+  width: 100%;
+  float: left;
+}
+.service-box-details {
+  width: 23%;
+  float: left;
+  margin: 0 1%;
+}
+.service-box-details img {
+  height: 150px;
+}
+.service-box-details h3 {
+  margin: 20px;
+}
+.service-box-details p {
+}
+/* Team section  */
+#team {
+  background-color: #e7f1f8;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.team-main {
+  width: 52%;
+  margin: auto;
+}
+.team-main h2 {
+}
+.team-main p {
+  font-size: 15px;
+}
+.team-box {
+}
+.team-box-details {
+  width: 23%;
+  float: left;
+  margin: 50px 1%;
+}
+.team-box-details img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.team-box-details h3 {
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.team-box-details h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7ad0ee;
+  margin-bottom: 20px;
+}
+.team-box-details p {
+}
+.social-icons {
+}
+.social-icons i {
+  font-size: 25px;
+  margin: 20px 10px;
+  background: rgb(66, 64, 64);
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+.fa-facebook-f {
+  padding: 10px 15px !important;
+}
+.social-icons i:hover {
+  background: lightseagreen;
+  color: #fff;
+}
+/* Skill Section  */
+#skill {
+  background-color: #ffffff;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.skill-main {
+  width: 52%;
+  margin: auto;
+}
+.skill-main h2 {
+}
+.skill-box {
+  width: 100%;
+  margin: auto;
+}
+.skill-box-details {
+  width: 23%;
+  float: left;
+  margin: 50px 1%;
+}
+.skill-box-details h4 {
+}
+.skill-box-details img {
+}
+.percent {
+  position: ;
+}
+/* Portfolio Section  */
+#portfolio {
+  background-color: #ffdd99;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.portfolio-main {
+  width: 52%;
+  margin: auto;
+}
+.portpolio-menu {
+}
+.portpolio-menu ul {
+  margin: 45px;
+}
+.portpolio-menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+}
+.portpolio-menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  background: gray;
+  border: none;
+  padding: 10px;
+  margin: 20px 5px;
+}
+.portpolio-menu ul li a:hover {
+  background-color: white;
+}
+.portfolio-box {
+  width: 100%;
+  margin: auto;
+  float: left;
+}
+.portfolio-box-details {
+  width: 48%;
+  float: left;
+  margin: 50px 1%;
+}
+.portfolio-box-details img {
+}
+.portfolio-box-details h4 {
+  margin-top: 30px;
+  font-size: 15px;
+}
+.portfolio-box button {
+  background-color: #056b58;
+}
+.portfolio-box button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 4px #056b58;
+}
+/* About Section  */
+#about {
+  background-color: #d74680;
+  width: 100%;
+  float: left;
+  color: white;
+}
+.about-main {
+  width: 52%;
+  margin: auto;
+  text-align: center;
+}
+.about-box {
+  width: 100%;
+  margin: auto;
+  float: left;
+}
+.about-box-img {
+  width: 15%;
+  float: left;
+  margin: 50px 2%;
+}
+.about-box-para {
+  width: 29%;
+  float: left;
+  margin: 50px 1%;
+}
+.about-box-para h4 {
+  font-size: 15px;
+  color: #facc96;
+}
+.about-box-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+/* Touch Section  */
+#touch {
+  background-color: #3c5499;
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+.touch-main {
+  width: 52%;
+  margin: auto;
+  text-align: center;
+}
+.touch-box {
+  width: 100%;
+  margin: 25px auto;
+  padding: 10px;
+}
+.touch-box-details button {
+  background-color: #30bae7;
+}
+.touch-box-details button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 4px;
+}
+.touch-box-details input {
+  padding: 10px;
+  width: 263px;
+  margin: 1%;
+  border-radius: 5px;
+  border: none;
+  background-color: #273a71;
+  color: #fff;
+  font-size: 15px;
+}
+.touch-box-details textarea {
+  padding: 10px 0 0 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #273a71;
+  color: #fff;
+  font-size: 15px;
+}
+.touch-box-details input:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
+.touch-box-details textarea {
+  cursor: pointer;
+}
+/* Footer Is Here  */
+footer {
+  width: 100%;
+  float: left;
+  text-align: center;
+  background: #344b8e;
+}
+.footer {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.footer ul {
+}
+.footer ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 15px;
+  padding: 5px;
+}
+.footer ul li a:hover {
+  cursor: pointer;
+  color: aqua;
+}
